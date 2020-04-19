@@ -6,7 +6,9 @@ Speed Wi-Fi NEXT の LTE Band API をキックするツール
 
 ## Description
 
-Speed Wi-Fi NEXT の LTE Band 1, 3, 5, 17, 18, 41, 42 の有効/無効化することができます。Rakut○n UN-LIMIT とかで LTE Band 3 を有効化するときとかに使えるかと。
+Speed Wi-Fi NEXT の LTE Band 1, 3, 5, 17, 18, 41, 42 の有効/無効化を Windows PC 上から行うことができます。
+Rakut○n UN-LIMIT とかで LTE Band 3 を有効化するときとかに使えるかと。 (「W04 L01 LTEBand」にかなり近しい実装状況。「HW EntityList」には追いついておらず。)
+
 
 WiMAX のハイスピードエリアモードやハイスピードプラスエリアモードの設定については設定できないため、ツールとは別の場所で設定が必要です。
 
