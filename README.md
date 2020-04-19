@@ -2,11 +2,12 @@
 
 ## Overview
 
-Speed Wi-Fi HOME の LTE Band API をキックするツール
+Speed Wi-Fi NEXT の LTE Band API をキックするツール
 
 ## Description
 
-Speed Wi-Fi HOME の LTE Band 1, 3, 5, 17, 18, 41, 42 の有効/無効化することができます。Rakut○n UN-LIMIT とかで LTE Band 3 を有効化するときとかに使えるかと。
+Speed Wi-Fi NEXT の LTE Band 1, 3, 5, 17, 18, 41, 42 の有効/無効化することができます。Rakut○n UN-LIMIT とかで LTE Band 3 を有効化するときとかに使えるかと。
+
 WiMAX のハイスピードエリアモードやハイスピードプラスエリアモードの設定については設定できないため、ツールとは別の場所で設定が必要です。
 
 動作保証なし。ご利用は自己責任で。
