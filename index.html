@@ -1,0 +1,55 @@
+<html>
+<head>
+
+<meta charset="utf-8">
+<title>Band Configurator for Huawei Speed Wi-Fi NEXT</title>
+
+<style type="text/css">
+td {
+	vertical-align: top;
+	padding: 4px 4px;
+}
+.div-pre {
+	white-space: pre;
+}
+</style>
+
+<script type="text/javascript" src="/scripts/jssha/sha.js"></script>
+<script type="text/javascript" src="/scripts/jssha/sha256.js"></script>
+<script type="text/javascript" src="/scripts/core.js"></script>
+
+</head>
+<body>
+
+<hr>
+
+<form name="apiform">
+<table>
+	<tr><td>Address</td><td><input type="text" name="address" size="20" value="192.168.100.1" placeholder="speedwifi-next.home"/></td><td></td></tr>
+	<tr><td>Password</td><td><input type="password" name="password" size="20" value="" placeholder="12345"/></td><td>* Default Password is the Last Five Digits of Your Device's IMEI</th></tr>
+	<tr><td rowspan="8">LTE Bands</td><td><input type="button" value="HS" onclick="setBands([41])" /><br><input type="button" value="HS+A" onclick="setBands([1, 18, 41, 42])" /></td><td>HS = High Spped Area Mode (Check LTE Band 41)<br>	 HS+A = High Speed Plus Area Mode (Check LTE Band 1, 18, 41, 42)</td></tr>
+	<tr>                          <td><input type="checkbox" class="cb-band" name="band1" value="1" onchange="updateRequestParameters()" />Band 1</td><td></td></tr>
+	<tr>                          <td><input type="checkbox" class="cb-band" name="band3" value="3" onchange="updateRequestParameters()" />Band 3</td><td></td></tr>
+	<tr>                          <td><input type="checkbox" class="cb-band" name="band5" value="5" onchange="updateRequestParameters()" />Band 5</td><td></td></tr>
+	<tr>                          <td><input type="checkbox" class="cb-band" name="band17" value="17" onchange="updateRequestParameters()" />Band 17</td><td></td></tr>
+	<tr>                          <td><input type="checkbox" class="cb-band" name="band18" value="18" onchange="updateRequestParameters()" />Band 18</td><td></td></tr>
+	<tr>                          <td><input type="checkbox" class="cb-band" name="band41" value="41" onchange="updateRequestParameters()" />Band 41</td><td></td></tr>
+	<tr>                          <td><input type="checkbox" class="cb-band" name="band42" value="42" onchange="updateRequestParameters()" />Band 42</td><td></td></tr>
+	<tr><td>Request Parameters</td><td><textarea name="reqparams" cols="50" rows="10"></textarea></td><td></td></tr>
+</table>
+
+<input type="button" value="GET" onClick="getDeviceEnabledBand()" />
+<input type="button" value="SET" onClick="setDeviceEnabledBand()" />
+</form>
+
+<hr>
+
+<table>
+	<tr><td>URL</td><td><div class="div-pre" id="url" size="50"/></td><tr>
+	<tr><td>HTTP Status</td><td><div class="div-pre" id="status" /></td><tr>
+	<tr><td>Message</td><td><div class="div-pre" id="message" /></td><tr>
+	<tr><td>Response</td><td><div class="div-pre" id="response" /></td><tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,6 @@
+Mongoose.app/
+mongoose.exe
+*.bak
+sha*.js
+*.txt
+README_*.html
