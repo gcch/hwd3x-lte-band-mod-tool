@@ -19,7 +19,7 @@ macOS 向けのファイルもあるが、検証環境がないため、未検�
 
 ### Hardware
 
-* Speed Wi-Fi HOME W05 (HWD35)
+* Speed Wi-Fi NEXT W05 (HWD35)
 
 ### Software
 
