@@ -34,6 +34,7 @@ macOS 向けのファイルもあるが、検証環境がないため、未検�
 ### Setup
 
 1. Google Chrome をインストール
+
 Download Link: https://www.google.com/chrome/
 
 2. Mangoose Web Server をダウンロードして以下の位置に配置
