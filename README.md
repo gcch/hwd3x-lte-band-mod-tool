@@ -46,12 +46,12 @@ Download Link: https://cesanta.com/binary.html
 
 Windows:
 ```
-<contents_root>\mangoose.exe
+<contents_root>\mongoose.exe
 ```
 
 Mac:
 ```
-<contents_root>\Mangoose.app
+<contents_root>\Mongoose.app
 ```
 
 
