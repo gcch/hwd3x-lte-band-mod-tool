@@ -28,7 +28,7 @@ macOS 向けのファイルもあるが、検証環境がないため、未検�
 
 * Microsoft Windows 10 Pro (Version 1909, 64-bit)
 * Google Chrome 80.0.3987.163 (Official Build, 64-bit)
-* Mangoose Web Server for Windows 6.9 (Free)
+* Mongoose Web Server for Windows 6.9 (Free)
 * jsSHA 3.1.0 (2020/04/15)
 
 
