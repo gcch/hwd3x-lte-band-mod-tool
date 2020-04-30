@@ -79,7 +79,7 @@ Mac:
 <contents_root>\mac_chrome_start-with-disable-web-security.command
 ```
 
-2. ブラウザ上に「Address」と「Password」を入力
+2. ブラウザ上の「Address」と「Password」に必要情報を入力
 
 3. 「GET」ボタンを押し、設定情報を取得
 
