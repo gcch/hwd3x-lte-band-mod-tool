@@ -60,8 +60,8 @@ Mac:
 Download Link: https://github.com/Caligatio/jsSHA
 
 ```
-<contents_root>\scripts\js\sha.js
-<contents_root>\scripts\js\sha256.js
+<contents_root>\scripts\jssha\sha.js
+<contents_root>\scripts\jssha\sha256.js
 ```
 
 
